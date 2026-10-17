@@ -1,6 +1,6 @@
 /* Light only, by choice: the page stays white even when the viewer's browser is dark. */
 :root {
-  color-scheme: light;
+  color-scheme: only light;  /* "only" opts out of Chrome/Edge forced dark mode */
   --bg: #ffffff;
   --text: #22252a;
   --muted: #63676f;
